@@ -1,5 +1,5 @@
 {
-  "name": "KimaJS",
+  "name": "Erlly",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "body-parser": "~1.15.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
-    "ejs": "^2.5.1",
+    "ejs": "^2.5.2",
     "express": "~4.13.4",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
