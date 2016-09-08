@@ -13,12 +13,17 @@
     "express": "~4.13.4",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-cli": "^1.2.2",
     "gulp-concat": "^2.6.0",
+    "gulp-install": "^0.6.0",
     "gulp-sass": "^2.2.0",
     "morgan": "~1.7.0",
     "nightwatch": "^0.8.18",
     "node-sass": "^3.4.2",
     "nodemon": "^1.10.2",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }

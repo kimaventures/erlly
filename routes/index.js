@@ -3,9 +3,9 @@ var router = express.Router();
 
 
 
-	router.get('/', function(req, res, next){
-		res.render('onboarding/home');
-	})
+router.get('/', function(req, res, next){
+	res.render('onboarding/home');
+})
 
 
 // always at the end
