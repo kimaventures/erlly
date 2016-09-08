@@ -1,0 +1,1 @@
+nodemon --delay 0 --ext "js,scss,sass" --ignore public --ignore spec --ignore scripts --ignore tests --exec "gulp & node" ./bin/www
