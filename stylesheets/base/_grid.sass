@@ -1,0 +1,24 @@
+//container
+.container
+	max-width: 95%
+	width: 1150px
+	min-height: 100px
+
+	&:after
+		+after
+
+	&__main
+		width: 65%
+
+	&__aside
+		width: 30%
+
+
+	&--small
+		@extend .container
+		width: 	765px
+		max-width: 95%
+
+	&--very_small
+		@extend .container
+		width: 620px

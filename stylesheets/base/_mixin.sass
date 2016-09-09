@@ -1,0 +1,186 @@
+//shadow
+=shadow_0
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0),0 2px 10px 0 rgba(0,0,0,0)
+
+=shadow_1
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)
+
+=shadow_2
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)
+
+=shadow_3
+	box-shadow: 0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)
+
+=shadow_4
+	box-shadow: 0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21)
+
+=shadow_5
+	box-shadow: 0 27px 24px 0 rgba(0,0,0,.2),0 40px 77px 0 rgba(0,0,0,.22)
+
+//color
+=primary_color
+	color: $primary_color
+
+
+// flex
+=flex
+	display: -webkit-box
+	display: -moz-box
+	display: -ms-flexbox
+	display: -webkit-flex
+	display: flex
+
+=flex_number($number)
+	-webkit-box-flex: $number
+	-moz-box-flex: $number
+	-webkit-flex: $number
+	-ms-flex: $number
+	flex: $number
+
+=justify_content($content)
+	-webkit-justify-content: $content
+	justify-content: $content
+
+=align_items($center)
+	-webkit-align-items: $center
+	align-items: $center
+
+=flex_wrap($wrap)
+	-webkit-flex-wrap: $wrap
+	flex-wrap: $wrap
+
+=flex_direction($row)
+	-webkit-flex-direction: $row
+	flex-direction: $row
+
+=order($number)
+	-webkit-order: $number
+	order: $number
+
+=align_self($flex_end)
+	align-self: $flex_end
+
+// background
+=background_cover
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover	
+	background-size: cover
+
+=background_size($cover)
+	-webkit-background-size: $cover
+	-moz-background-size: $cover
+	-o-background-size: $cover
+	background-size: $cover!important
+
+
+// borer
+=border
+	border: $border
+
+=border_top
+	border-top: $border
+
+=border_right
+	border-right: $border
+
+=border_bottom
+	border-bottom: $border
+
+=border_left
+	border-left: $border
+
+=border_radius($border_radius_mixin)
+	border-radius: ($border_radius_mixin)
+
+
+//text-align
+=center
+	text-align: center
+
+=right
+	text-align: right
+
+=left
+	text-align: left
+
+=justify
+	text-align: justify
+
+// cursor
+=pointer
+	cursor: pointer
+
+// text-indent
+=indent($px)
+	text-indent: $px
+
+
+// font-weigh
+=thin
+	font-weight: 300
+
+=bold
+	font-weight: bold
+
+=normal
+	font-weight: 400
+
+
+// display
+=block
+	display: block
+
+=inline_block
+	display: inline-block
+
+=none
+	display: none
+
+=after
+	content: ''
+	display: block
+	clear: both
+
+
+//transition
+=transition_slow($opacity)
+	-webkit-transition: $opacity, 1s
+	transition: $opacity, 1s
+
+=transition($opacity)
+	-webkit-transition: $opacity, .7s
+	transition: $opacity, .7s
+
+=transition_fast($opacity)
+	-webkit-transition: $opacity, .1s
+	transition: $opacity, .1s
+
+
+
+// position
+=absolute
+	position: absolute
+
+=relative
+	position: relative
+
+=fixed
+	position: fixed
+
+
+// transform
+
+=transform_rotate($deg)
+	-ms-transform: rotate($deg)
+	-webkit-transform: rotate($deg)
+	transform: rotate($deg)
+
+
+//min_height
+=min_height
+	min-height: 100vh
+
+=min_width
+	min-width: 100vh
+

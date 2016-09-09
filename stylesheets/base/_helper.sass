@@ -1,0 +1,36 @@
+.center
+	text-align: center!important
+
+.left
+	text-align: left!important
+
+.blank
+	+flex_number(1)
+
+.is-primary
+	color: rgba($primary_color, .7)
+
+.thin
+	+thin
+
+.bold
+	font-weight: bold!important
+
+.strong
+	color: rgba(0,0,0,.8)
+	font-weight: bold!important
+
+.link
+	color: $primary_color
+	opacity: .8
+	+pointer
+
+	&:hover
+		opacity: .95
+
+.pointer
+	+pointer
+
+.flex_center
+	+flex
+	+align_items(center)
